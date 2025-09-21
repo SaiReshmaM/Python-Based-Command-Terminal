@@ -1,9 +1,6 @@
 import os
 import sys
 
-# Add parent directory (D:\hack) to sys.path so 'backend' module can be found
-sys.path.append(r"D:\hack")  # Adjust this if your path is different
-
 import streamlit as st
 from backend import executor, monitor
 
@@ -89,3 +86,4 @@ try:
                     st.error(f"Error reading file: {fe}")
 except Exception as e:
     st.error(f"Error listing files in path `{path}`: {e}")
+
