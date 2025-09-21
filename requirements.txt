@@ -1,0 +1,7 @@
+streamlit
+psutil
+flask
+flask-cors
+rich
+pytest
+pyreadline3
